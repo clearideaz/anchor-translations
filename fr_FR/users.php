@@ -1,4 +1,4 @@
-<?php defined('IN_CMS') or die('No direct access allowed.');
+<?php
 
 return array(
 
@@ -12,7 +12,7 @@ return array(
 	'back_to' => 'Retour aux ',
 
 	// english spelling confusion
-	'log_in' => 'S&rsquo;dentifiez', // verb
+	'log_in' => 'S&rsquo;dentifier', // verb
 	'login' => 'Identification', // noun
 
 	'forgotten_password' => 'Mot de passe oubli&eacute;&nbsp;?',
@@ -38,8 +38,8 @@ return array(
 	'user_details_explain' => 'Renseigne les informations n&eacute;cessaire &agrave; votre nouvel utilisateur pour se connecter &agrave; Anchor.',
 	'username' => 'Pseudonyme',
 	'username_explain' => 'Le pseudonyme souhait&eacute;. Peut &ecirc;tre modifi&eacute; ult&eacute;rieurement.',
-	'password' => 'Password',
-	'password_explain' => 'Le mot de passe souhait&eacute;. Peut &ecirc;tre modifi&eacute; ult&eacute;rieurement.',
+	'password' => 'Mot de passe',
+	'new_password' => 'Nouveau mot de passe',
 	'password_blank' => 'Laisser vide pour ne rien changer.',
 	'email' => 'Email',
 	'email_explain' => 'L&rsquo;adresse email de l&rsquo;utilisateur. Requis si l&rsquo;utilisateur oublie son mot de passe.',
@@ -56,14 +56,16 @@ return array(
 
 	'username_exists' => 'Ce nom pseudonyme est d&eacute;j&agrave; utilis&eacute;',
 	'missing_password' => 'Merci d&rsquo;entrer un mot de passe',
+	'password_too_short' => 'Le mot de passe doit contenir au minimum %s caractères',
 	'invalid_email' => 'L&rsquo;adresse email n&rsquo;est pas valide',
 	'missing_name' => 'Veuillez fournir un nom d&rsquo;affichage',
 	'missing_username' => 'Merci de fournir un pseudonyme',
+	'invalid_status' => 'Vous ne pouvez pas changé votre propre statut',
 	'user_success_created' => 'Un nouvel utilisateur a &eacute;t&eacute; cr&eacute;&eacute;',
 	'user_success_updated' => 'L&rsquo;utilisateur a &eacute;t&eacute; mis &agrave; jour',
 	'user_success_deleted' => 'L&rsquo;utilisateur a &eacute;t&eacute; supprim&eacute;',
-    'user_success_password' => 'Votre nouveau mot de passe est pr&ecirc;t',
-    'user_notice_recover' => 'Nous vous avons envoy&eacute; un email pour confirmer le changement de votre nouveau mot de passe.',
+  'user_success_password' => 'Votre nouveau mot de passe est pr&ecirc;t',
+  'user_notice_recover' => 'Nous vous avons envoy&eacute; un email pour confirmer le changement de votre nouveau mot de passe.',
 	'user_email_recover' => 'Vous avez demand&eacute; &agrave; r&eacute;initialiser votre mot de passe. Pour continuer, veuillez cliquez sur le lien ci-dessous.',
 	'user_subject_recover' => 'R&eacute;initialiser le mot de passe',
 	'invalid_account' => 'Compte introuvable',

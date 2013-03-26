@@ -1,4 +1,4 @@
-<?php defined('IN_CMS') or die('No direct access allowed.');
+<?php
 
 return array(
 
@@ -49,15 +49,15 @@ return array(
 	'title' => 'Titre',
 	'title_explain' => 'Le titre de votre article.',
 	'date' => 'Date',
-	'date_explain' => 'La date de publication de votre article. Utilise <code><a href="http://php.net/manual/en/function.strtotime.php">strtotime()</a></code>.',
+	'date_explain' => 'La date de publication de votre article. Utilise <code><a href="http://php.net/manual/fr/function.strtotime.php">strtotime()</a></code>.',
 	'slug' => 'Alias',
 	'slug_explain' => 'L&rsquo;alias de votre page (<code id="output">alias</code>).',
 	'description' => 'Description',
 	'description_explain' => 'Un bref aper&ccedil;u de ce que contient votre article. Utilis&eacute; dans le flux RSS.',
 	'content' => 'Contenu',
 	'content_explain' => 'Le contenu principal de votre article. Profite une bonne dose de code HTML valide.',
-    'status' => 'Statut',
-    'status_explain' => 'Voulez-vous que votre page soit visible (publi&eacute;e), en attente (brouillon), ou cach&eacute;e (archiv&eacute;e)&nbsp;?',
+  'status' => 'Statut',
+  'status_explain' => 'Voulez-vous que votre page soit visible (publi&eacute;e), en attente (brouillon), ou cach&eacute;e (archiv&eacute;e)&nbsp;?',
 	'allow_comments' => 'Autoriser les commentaires',
 	'allow_comments_explain' => 'Cela permettra aux utilisateurs de commenter votre article.',
 	'custom_css' => 'CSS Personnalis&eacute;e',

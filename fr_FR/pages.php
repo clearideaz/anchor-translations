@@ -1,4 +1,4 @@
-<?php defined('IN_CMS') or die('No direct access allowed.');
+<?php
 
 return array(
 
@@ -15,7 +15,7 @@ return array(
 	'title' => 'Titre',
 	'title_explain' => 'Le titre de votre page, Celui-ci sera affich&eacute; dans la balise <code>&lt;title&gt;</code>.',
 	'slug' => 'Alias',
-	'slug_explain' => 'L&rsquo;alias de votre page (<code>' . $_SERVER['HTTP_HOST'] . '/<span id="output">alias</span></code>).',
+	'slug_explain' => 'L&rsquo;alias de votre page.',
 	'content' => 'Contenu',
 	'content_explain' => 'Le contenu de votre page. Code HTML valide autoris&eacute;.',
 	'redirect_option' => 'Cette page d&eacute;clenche une redirection vers une autre URL',
